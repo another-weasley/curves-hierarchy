@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.5)
+
+set (PROJECT curves-hierarchy)
+project (${PROJECT})
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+
+set (HEADERS
+        point3d.hpp
+        icurve.hpp
+        circle.hpp)
+set (SOURCES
+        point3d.cpp
+        circle.cpp
+        main.cpp)
+
+add_executable(${PROJECT} ${HEADERS} ${SOURCES})
