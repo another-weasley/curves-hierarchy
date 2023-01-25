@@ -3,7 +3,7 @@
 #include "point3d.hpp"
 #include "icurve.hpp"
 
-class Ellipse: public ICurve
+class Ellipse: public Curve
 {
 private:
     float m_xradius;
