@@ -1,7 +1,7 @@
 #ifndef ELLIPSE_HPP
 #define ELLIPSE_HPP
 #include "point3d.hpp"
-#include "icurve.hpp"
+#include "curve.hpp"
 
 class Ellipse: public Curve
 {

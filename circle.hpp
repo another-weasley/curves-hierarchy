@@ -1,6 +1,6 @@
 #ifndef CIRCLE_HPP
 #define CIRCLE_HPP
-#include "icurve.hpp"
+#include "curve.hpp"
 #include "point3d.hpp"
 
 class Circle: public Curve
