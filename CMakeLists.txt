@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set (HEADERS
         point3d.hpp
-        icurve.hpp
+        curve.hpp
         circle.hpp
         ellipse.hpp
         helix.hpp)

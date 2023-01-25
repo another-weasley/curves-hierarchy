@@ -17,3 +17,8 @@ Point3D Circle::calc_derivative_at(float t)
     z = 0;
     return {x,y,z};
 }
+
+float Circle::get_radius()
+{
+    return m_radius;
+}
