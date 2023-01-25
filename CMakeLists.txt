@@ -10,10 +10,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set (HEADERS
         point3d.hpp
         icurve.hpp
-        circle.hpp)
+        circle.hpp
+        ellipse.hpp
+        helix.hpp)
 set (SOURCES
         point3d.cpp
         circle.cpp
+        ellipse.cpp
+        helix.cpp
         main.cpp)
 
 add_executable(${PROJECT} ${HEADERS} ${SOURCES})
