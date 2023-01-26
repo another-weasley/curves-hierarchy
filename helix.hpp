@@ -1,7 +1,7 @@
 #ifndef HELIX_HPP
 #define HELIX_HPP
 #include "point3d.hpp"
-#include "icurve.hpp"
+#include "curve.hpp"
 
 class Helix: public Curve
 {

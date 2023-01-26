@@ -1,0 +1,3 @@
+/home/anna/C++Projects/curves-hierarchy/CMakeFiles/curves-hierarchy.dir
+/home/anna/C++Projects/curves-hierarchy/CMakeFiles/edit_cache.dir
+/home/anna/C++Projects/curves-hierarchy/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,17 @@
 # curves-hierarchy
 
+## how to run (Linux)
+Clone or download the project. Then move to the directory of the project. You can run executable:
+
+`./curves-hierarchy`
+
+Or you can rebuild it:
+```
+cmake CMakeLists.txt
+make
+./curves-hierarchy
+```
+
 ## theory
 Curves are parametrically defined, so they are defined that way:
 

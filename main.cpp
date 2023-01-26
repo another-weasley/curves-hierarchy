@@ -62,6 +62,7 @@ int main()
 
     // print the sorted container and compute the sum of radii in the container
     float sum_of_circles = 0;
+    std::cout << "Radii of circles:" << std::endl;
     for (const auto& item: circle_cont)
     {
         std::cout << item->get_radius() << std::endl;
